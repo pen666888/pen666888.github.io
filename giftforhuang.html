@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生日祝福 - 致我特别重要的人</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #FFEBB5; /* 暖色调背景 */
+            color: #D86D5A; /* 甜美的文字颜色 */
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        h1 {
+            font-size: 3em;
+            margin-top: 20px;
+            font-family: 'KaiTi', cursive; /* 甜美风格汉字 */
+        }
+        .cake-container {
+            margin-top: 50px;
+            position: relative;
+        }
+        .cake {
+            width: 200px;
+            height: 200px;
+            background-color: #FFD700;
+            border-radius: 20px;
+            position: relative;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+        .cake-layer {
+            height: 60px;
+            background-color: #FF6347;
+            border-radius: 10px;
+            margin-top: -20px;
+        }
+        .candle {
+            width: 10px;
+            height: 30px;
+            background-color: #FF6347;
+            position: absolute;
+            top: -40px;
+            left: 90px;
+            border-radius: 5px;
+        }
+        .flame {
+            width: 10px;
+            height: 10px;
+            background-color: #FF4500;
+            border-radius: 50%;
+            position: absolute;
+            top: -20px;
+            left: 0;
+            animation: flameAnimation 1s infinite alternate;
+        }
+        @keyframes flameAnimation {
+            0% { transform: scale(1); opacity: 1; }
+            100% { transform: scale(1.5); opacity: 0.5; }
+        }
+        .message {
+            font-size: 1.5em;
+            margin-top: 30px;
+        }
+        .footer {
+            position: absolute;
+            bottom: 10px;
+            font-size: 0.8em;
+            color: #D86D5A;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>致我特别重要的人</h1>
+
+    <div class="cake-container">
+        <div class="cake">
+            <div class="cake-layer"></div>
+            <div class="cake-layer"></div>
+            <div class="cake-layer"></div>
+            <div class="candle">
+                <div class="flame"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="message">
+        <p>好久不见，我的妈妈，最可爱的黄女士！这个小页面是为你准备的。</p>
+        <p>我想让你知道你很了不起，被珍惜、被爱着。</p>
+        <p>祝你生日快乐——我们爱你，到99岁！</p>
+    </div>
+
+    <div class="footer">
+        <p>由你的女儿用爱制作</p>
+    </div>
+
+</body>
+</html>
